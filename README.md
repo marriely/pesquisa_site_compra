@@ -1,7 +1,7 @@
 # pesquisa_site_compra
-Repositório para testes de pesquisa em site de compra
+Repositório para testes de pesquisa em site de compra. Casos de teste (https://github.com/marriely/pesquisa_site_compra/blob/master/casos_de_testes.md)
 
-Teste foi realizado usando o framework cypress(https://www.cypress.io/)
+Teste foi realizado usando o framework cypress(https://www.cypress.io/) com a linguagem JavaScrit.
 
 Para executar o projeto local precisa ter cypress instalados.
 
