@@ -1,0 +1,17 @@
+{
+  "name": "Pesquisa-site-compra",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress": "cypress run",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^3.8.2"
+  }
+}
