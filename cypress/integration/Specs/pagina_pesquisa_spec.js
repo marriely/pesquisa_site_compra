@@ -16,17 +16,17 @@ describe ('Pesquisa de produto', () => {
   it ('Pesquisa de produto Galaxy A70 usando o botão de pesquisa', () => {
     cy.pesquisaBotao(GALAXY_A70, BTN_PESQUISA);
     cy.acessarProduto();
-  }) //it pesquisa de produto com o botão de pesquisa
+  }) //it pesquisa de produto A70 com o botão de pesquisa
 
   it ('Pesquisa de produto Xaiomi usando o botão de pesquisa', () => {
     cy.pesquisaBotao(XAIOMI, BTN_PESQUISA);
     cy.acessarProduto();
-  }) //it pesquisa de produto com o botão de pesquisa
+  }) //it pesquisa de produto XAIOMI com o botão de pesquisa
 
   it ('Pesquisa de produto One Vision usando o botão de pesquisa', () => {
     cy.pesquisaBotao(ONE_VISION, BTN_PESQUISA);
     cy.acessarProduto();
-  }) //it pesquisa de produto com o botão de pesquisa
+  }) //it pesquisa de produto ONE VISION com o botão de pesquisa
 
   it ('Pesquisa de produto que nao existe na loja', () => {
     cy.pesquisaBotao('dshifsdfh', BTN_PESQUISA);
